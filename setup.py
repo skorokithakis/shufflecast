@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from shufflecast import __version__
 
 try:
     from setuptools import setup
@@ -18,9 +19,10 @@ requirements = [
 test_requirements = [
 ]
 
+
 setup(
     name='shufflecast',
-    version='0.1.0',
+    version=__version__,
     description="A TV channel with all your favorite shows.",
     long_description=readme,
     author="Stavros Korokithakis",

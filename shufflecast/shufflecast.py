@@ -101,11 +101,11 @@ def serve_http(videos):
 
 def main():
     if len(sys.argv) < 2:
-        print("shufflecast <directory>")
+        sys.exit("shufflecast <directory>")
 
     basedir = os.path.realpath(sys.argv[1])
     if not os.path.isdir(basedir):
-        print("shufflecast <directory>")
+        sys.exit("shufflecast <directory>")
 
     videos = list_files(basedir, "\.(avi|mkv|mp4)$")
     random.shuffle(videos)
