@@ -1,8 +1,8 @@
 Shufflecast
 ===========
 
-.. image:: https://img.shields.io/pypi/v/shufflecast.svg
-        :target: https://pypi.python.org/pypi/shufflecast
+[![PyPI package](https://img.shields.io/pypi/v/shufflecast.svg)](https://pypi.python.org/pypi/shufflecast)
+
 
 Shufflecast is a simple script that, given a directory that contains video files
 under its tree, will create and stream a shuffled playlist of the files to a
